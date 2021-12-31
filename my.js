@@ -99,5 +99,5 @@ function circle(x,y,r) {
   ctx.fill();
 }
 
-alert ("HAPPY NEW YEAR 2022 \nThis Code Is Developed By DEEP SEYAN \nCONTACT ME:- @deepseyan");
-alert ("THANKYOU FOR USING \nSHARE WITH YOUR FRIENDS");
+alert ("HAPPY NEW YEAR 2022 \nCONTACT ME:- @rathin_gorai");
+alert ("THANKYOU FOR USING \nSHARE WITH YOUR FRIENDS"); 
