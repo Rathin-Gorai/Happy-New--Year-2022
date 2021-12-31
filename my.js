@@ -79,7 +79,7 @@ function rocket(x, y, id, t) {
   let r = 2-2*t + Math.pow(t, 15*t)*16;
   y = h - y*t;
   circle(x, y, r)
-} 
+}
 
 function explosion(pts, x, y, id, t) {
   let dy = (t*t*t)*20;
@@ -99,5 +99,5 @@ function circle(x,y,r) {
   ctx.fill();
 }
 
-alert ("HAPPY NEW YEAR 2022 \nCONTACT ME:- @rathin_gorai");
+alert ("HAPPY NEW YEAR 2022 \nThis Code Is Developed By DEEP SEYAN \nCONTACT ME:- @deepseyan");
 alert ("THANKYOU FOR USING \nSHARE WITH YOUR FRIENDS");
