@@ -1,11 +1,15 @@
 let chars, particles, canvas, ctx, w, h, current;
 let duration = 5000;
 let str = ['','HAPPY','NEW','YEAR', 'TO','YOU','I','PRAY','TO','GOD','FOR','GOODNESS','AND','MERCY','FOR','YOU','AND','YOUR','FAMILY',];
-
+//go();
 init();
 resize();
 requestAnimationFrame(render);
 addEventListener('resize', resize);
+
+// function go(){
+//   document.getElementById("cs").play();
+// }
 
 function makeChar(c){
     let tmp = document.createElement('canvas');
@@ -35,6 +39,7 @@ function init() {
     document.body.style.overflow = 'hidden'
     document.body.style.background = 'black'
     ctx = canvas.getContext('2d');
+   // document.getElementById("cs").play();
 }
 
 function resize() {
@@ -98,6 +103,7 @@ function circle(x,y,r) {
   ctx.ellipse(x, y, r, r, 0, 0, 6.283);
   ctx.fill();
 }
+
 
 alert ("HAPPY NEW YEAR 2022 \nCONTACT ME:- @rathin_gorai");
 alert ("THANKYOU FOR USING \nSHARE WITH YOUR FRIENDS"); 
